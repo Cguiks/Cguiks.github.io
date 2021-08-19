@@ -1,0 +1,134 @@
+#css-web-garden{
+    font: italic normal 1.4em georgia, sans-serif;
+    font-size: medium;
+    padding: 0;
+    margin: 0;
+    background-image: url("back.png");
+    background-attachment: fixed;
+    background-position: center;
+}
+
+a:link,:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #0051ff;
+}
+
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #3211c3;
+	}
+
+.intro{
+    padding-top: 150px;
+}
+    
+.p1{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+    
+h3{
+    margin-bottom: 0px;
+}
+    
+    
+#jar-summary,#jar-intro,#jar-preamble,#jar-supporting{
+    text-align: center;
+}
+
+    
+.summary .p2{
+    margin-bottom: 50px;
+}
+    
+.preamble .p3{
+    margin-bottom: 50px;
+}
+    
+.benefits .p1{
+    margin-bottom: 50px;
+}
+    
+.participation .p3{
+    margin-bottom: 50px;
+}
+    
+.explanation .p2{
+    margin-bottom: 50px;
+}
+    
+.requirements .p4{
+    margin-bottom: 50px;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar h3{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    position: relative;
+    display: inline;
+}
+
+.sidebar{
+    text-align: center;
+	position: absolute; 
+	top: 0; 
+	right: 0;
+    left: 0;
+}
+
+ul li{
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.preamble h3{
+    text-decoration:underline;
+}
+
+#jar-supporting h3{
+    text-decoration:underline;
+}
+
+.intro{
+    background-color:rgba(0,0,255,0.3);
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    border-style: solid ;
+    border-radius: 70px;
+    border-color:rgb(0,0,255) ;
+    padding-top: 0px;
+}
+
+#jar-supporting{
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color:rgba(255,0,255,0.3);
+    border-style: solid ;
+    border-radius: 70px;
+    border-color:rgb(255,0,255);
+}
+
+.sidebar{
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color:rgba(255,0,255,0.3);
+    border-style: solid ;
+    border-radius: 70px;
+    border-color:rgb(255,0,255);
+    margin-top: 10px;
+}
